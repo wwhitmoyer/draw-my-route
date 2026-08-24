@@ -2,7 +2,7 @@
 
 **Draw My Route** is an Android tablet application that helps bus drivers create accurate, practical turn-by-turn directions from the route they actually drive.
 
-A driver draws a route directly on a map with a stylus. The app matches that drawing to real roads, generates turn-by-turn directions, and then guides the driver through each detected turn for review. Once approved, the completed route can be shared as a clean PDF by email.
+Drivers can either draw a route directly on a map with a stylus or carry the tablet on the bus and record the route with GPS. The app matches the selected trace to real roads, generates turn-by-turn directions, and guides the driver through each detected turn for review. Once approved, the completed route can be shared as a clean PDF by email.
 
 ## Why it exists
 
@@ -10,8 +10,8 @@ Assigned routes and existing turn-by-turn instructions are not always accurate, 
 
 ## How it works
 
-1. **Draw** — The driver opens a map and traces the route with a finger or stylus.
-2. **Match** — The app aligns the drawn trace with the road network and generates an editable route.
+1. **Create or record** — The driver traces a route with a finger or stylus, or records the route while driving with the tablet's GPS.
+2. **Match** — The app aligns the trace with the road network and generates an editable route.
 3. **Review** — The driver verifies every turn on the map, confirms it, or corrects the route where needed.
 4. **Approve** — The app saves an approved, versioned route with notes and safety information.
 5. **Share** — The app creates a turn-by-turn PDF and opens the device's email/share workflow.
@@ -19,6 +19,8 @@ Assigned routes and existing turn-by-turn instructions are not always accurate, 
 ## Planned first-release features
 
 - Tablet-first Android interface with stylus drawing
+- GPS-based route recording while riding in the bus
+- Recording controls to pause, resume, and mark stops, detours, or issues
 - Map-based route drawing, editing, erase, undo, and redo
 - Road matching and generated turn-by-turn directions
 - Turn-by-turn map review with confirmation and correction
@@ -29,7 +31,7 @@ Assigned routes and existing turn-by-turn instructions are not always accurate, 
 
 ## Technology direction
 
-The first release is planned as a native Android application built with Kotlin. Mapbox is the intended mapping foundation for map display, drawn-route matching, and directions.
+The first release is planned as a native Android application built with Kotlin. Mapbox is the intended mapping foundation for map display, drawn-route matching, GPS trace matching, and directions.
 
 ## Project status
 
